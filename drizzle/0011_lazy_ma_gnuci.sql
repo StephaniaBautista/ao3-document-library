@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `translation_job_user_story_language` ON `translation_jobs` (`user_id`,`story_id`,`target_language`);

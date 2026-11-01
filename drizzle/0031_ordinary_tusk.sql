@@ -1,0 +1,1 @@
+ALTER TABLE `shared_stories` ADD `metadata_manual_fields` text DEFAULT '{}' NOT NULL;

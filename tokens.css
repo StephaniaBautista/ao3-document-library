@@ -1,0 +1,29 @@
+:root {
+  --color-canvas: oklch(97% .009 255);
+  --color-surface: oklch(100% .002 255);
+  --color-surface-soft: oklch(98.5% .006 255);
+  --color-ink: oklch(25% .027 255);
+  --color-ink-soft: oklch(39% .025 255);
+  --color-muted: oklch(53% .022 255);
+  --color-border: oklch(91% .012 255);
+  --color-rail: oklch(22% .028 258);
+  --color-rail-soft: oklch(31% .031 258);
+  --color-rail-text: oklch(76% .018 255);
+  --color-accent: oklch(54% .15 253);
+  --color-accent-hover: oklch(47% .15 253);
+  --color-accent-soft: oklch(95% .025 253);
+  --color-white: oklch(100% .002 255);
+  --color-focus: oklch(58% .18 253);
+  --color-danger: oklch(53% .18 25);
+  --color-pdf: oklch(60% .16 27);
+  --color-epub: oklch(58% .12 155);
+  --font-display: 'Avenir Next', 'Segoe UI', sans-serif;
+  --font-body: 'Avenir Next', 'Segoe UI', sans-serif;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px;
+  --text-xs: 11px; --text-sm: 13px; --text-md: 14px; --text-lg: 16px;
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 16px;
+  --ease-out: cubic-bezier(.2,.8,.2,1); --ease-in: cubic-bezier(.4,0,1,1); --ease-in-out: cubic-bezier(.4,0,.2,1);
+  --dur-fast: 140ms; --rule-thin: 1px;
+}

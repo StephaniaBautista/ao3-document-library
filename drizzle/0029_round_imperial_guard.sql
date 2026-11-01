@@ -1,0 +1,1 @@
+ALTER TABLE `translation_jobs` ADD `reading_position` integer DEFAULT 0 NOT NULL;

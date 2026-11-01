@@ -1,0 +1,2 @@
+CREATE INDEX `drive_import_items_story_state` ON `drive_import_items` (`story_id`,`state`);--> statement-breakpoint
+CREATE INDEX `drive_import_items_job_story_state` ON `drive_import_items` (`job_id`,`story_id`,`state`);

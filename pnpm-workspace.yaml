@@ -1,0 +1,26 @@
+overrides:
+  'miniflare>sharp': 0.35.5
+  '@xmldom/xmldom': 0.9.12
+  source-map-js: 1.2.2
+  fast-uri: 3.1.9
+  browserslist: 4.29.5
+  baseline-browser-mapping: 2.11.34
+  "@babel/core": 7.29.7
+  "@esbuild-kit/core-utils>esbuild": 0.25.12
+  "esbuild@>=0.27.3 <0.28.1": 0.28.1
+  "undici@>=7.0.0 <7.30.1": 7.30.1
+  "ws@>=8.0.0 <8.21.0": 8.21.0
+  "js-yaml@>=4.0.0 <4.3.2": 4.3.2
+  "brace-expansion@<2": 1.1.21
+  "brace-expansion@>=4 <5.0.12": 5.0.12
+  "fflate@>=0.7.0 <0.7.5": 0.7.5
+  "@typescript-eslint/typescript-estree>minimatch": 11.0.1
+
+# Dependency install scripts are denied unless reviewed explicitly.
+allowBuilds:
+  esbuild: false
+  sharp: false
+  workerd: false
+  unrs-resolver: false
+  core-js: false
+  es5-ext: false

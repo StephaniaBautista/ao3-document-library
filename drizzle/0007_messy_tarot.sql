@@ -1,0 +1,1 @@
+ALTER TABLE `ao3_status` ADD `last_observation` text;

@@ -1,0 +1,1 @@
+ALTER TABLE `translation_jobs` ADD `browser_claim` text;

@@ -1,0 +1,8 @@
+{
+  "description": "Read your saved stories.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#335e4d"
+}

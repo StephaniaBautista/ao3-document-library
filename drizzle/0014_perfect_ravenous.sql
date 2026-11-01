@@ -1,0 +1,1 @@
+ALTER TABLE `shared_stories` ADD `metadata_status` text DEFAULT 'pending' NOT NULL;

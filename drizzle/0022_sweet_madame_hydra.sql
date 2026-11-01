@@ -1,0 +1,1 @@
+ALTER TABLE `notification_batches` ADD `attempted_at` integer;

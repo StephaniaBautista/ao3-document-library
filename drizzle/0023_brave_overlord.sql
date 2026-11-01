@@ -1,0 +1,1 @@
+ALTER TABLE `drive_oauth_states` ADD `verifier_ciphertext` text;

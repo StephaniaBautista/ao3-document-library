@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `favorite_items_collection_story` ON `favorite_items` (`collection_id`,`story_id`);

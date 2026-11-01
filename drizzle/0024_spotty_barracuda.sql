@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX `shared_folders_root_name` ON `shared_folders` ("name" collate nocase) WHERE "shared_folders"."parent_id" is null;--> statement-breakpoint
+CREATE UNIQUE INDEX `shared_folders_child_name` ON `shared_folders` (`parent_id`,"name" collate nocase) WHERE "shared_folders"."parent_id" is not null;

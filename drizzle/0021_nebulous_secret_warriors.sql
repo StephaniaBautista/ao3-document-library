@@ -1,0 +1,1 @@
+ALTER TABLE `reading_settings` ADD `target_language` text DEFAULT 'es' NOT NULL;
